@@ -3,48 +3,36 @@
 	<head>
 		<title>My First Website</title> <!-- 페이지의 제목 -->
 		<meta charset = "utf-8"> <!-- 한글이 모든 브라우저와 호환가능하게 -->
-	
-		 <!--CSS 사용-->
-		 <style>  
-			h1 {
-				font-size : 64px;
-				text-align : center;
-			}
-			
-			h2 {
-				margin-top : 100px;
-			}
-			
-			p i {
-				font-size : 48px;
-			}
-
-			img{
-				display: block;
-				margin-left : auto;
-				margin-right : auto;
-			}
-		 </style>
+		<link href = "style.css" rel="stylesheet"> <!-- css 파일 연결 -->
 	</head>
 	
 	
 	
 	<body>
-		<h1>My First Page</h1> <!-- 머리말 h1 ~ h6 까지 가능 -->
+		<div class="movie">
+			<h1>My First Page</h1> <!-- 머리말 h1 ~ h6 까지 가능 -->
 	
-		<p> <!-- p : 문단 태그, 위 아래에는 기본적으로 여백 존재-->
-			Lorem ipsum 
-			<b>color</b> <!-- 글씨 굵게 -->
-			 <em>sitamet</em>, <!-- 기울이기 + 강조하는 것이 목적 --> 
-			 consectetur adipiscing elit, 
-			 <strong>sed do eiusmod</strong> <!-- 텍스트가 중요하다고 표시하는 것이 목적 -->
-			 <i>tempor</i> <!-- 글씨 기울이기 -->
-		 </p> 
-		 
-		 <h2>안녕 세상!</h2>
+			<p> <!-- p : 문단 태그, 위 아래에는 기본적으로 여백 존재-->
+				Lorem ipsum 
+				<b>color</b> <!-- 글씨 굵게 -->
+				<em>sitamet</em>, <!-- 기울이기 + 강조하는 것이 목적 --> 
+				consectetur adipiscing elit, 
+				<strong>sed do eiusmod</strong> <!-- 텍스트가 중요하다고 표시하는 것이 목적 -->
+				<i>tempor</i> <!-- 글씨 기울이기 -->
+			</p> 
+		</div>
 
-		 <a href="https://www.google.com" target="_blank">구글로 가는 링크</a>
+		<div>
+			<!-- style을 html코드 상에 사용하기 -->
+			<h2 class="centered-text" style="color : red;">안녕 세상!</h2>
 
-		 <img src="../data/github_logo.png" width="50" height="50">
+			<a href="https://www.google.com" target="_blank">구글로 가는 링크</a>
+   
+			<img src="../data/github_logo.png" width="50" height="50">
+   
+			<p class="big-blue-text">HAHA</p>
+   
+			<p id="best-text">HOHO</p>   
+		</div>
 	</body>
 </html>

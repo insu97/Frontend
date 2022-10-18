@@ -1,0 +1,52 @@
+<!--CSS 사용-->
+h1 {
+    font-size : 64px;
+    text-align : center;
+}
+
+h2 {
+    margin-top : 100px;
+}
+
+.big-blue-text {
+    font-size : 64px;
+    color : blue;
+}
+
+p i {
+    font-size : 48px;
+}
+
+img{
+    display: block;
+    margin-left : auto;
+    margin-right : auto;
+}
+
+/* 
+    class : . 사용 
+    중복 클래스 가능
+    ex) class = "big blue" 가능
+*/
+.centered-text { 
+    text-align: center;
+}
+
+/* 
+    id : # 사용
+    중복 아이디 불가능
+    ex) id = "best first" 불가능
+*/
+#best-text {
+    color : orange;
+}
+
+.movie {
+    background-color: #eee;
+    border-radius: 20px;
+    margin-bottom: 50px;
+    padding : 50px;
+    width : 500px;
+    margin-left : auto;
+    margin-right : auto;
+}
